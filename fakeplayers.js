@@ -12,7 +12,7 @@ async function start() {
     try {
       bot = mineflayer.createBot({
         host: 'teknopat.aternos.me', // kendi sunucu IP
-        port: 25565,
+        port: 56778,
         username: username,
         version: '1.21.8' // sunucu sürümü
       })

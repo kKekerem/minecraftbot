@@ -4,7 +4,7 @@ async function start(){
   while(true){
     const username='Fake_'+Math.floor(Math.random()*99999)
     const bot=mineflayer.createBot({
-      host:'sunucu.ip.adresi', // sunucu IP'si buraya
+      host:'teknopat.aternos.me', // sunucu IP'si buraya
       port:25565,
       username:username
     })
